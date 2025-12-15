@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href="./style.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav>
-        <div class="logo">YourName</div>
+        <div class="logo">Prasoon</div>
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
         </div>
     </nav>
@@ -21,10 +24,11 @@
     <!-- Hero Section -->
     <div class="hero">
         <div class="hero-content">
-            <h1>Hi, I'm Your Name</h1>
-            <p>Full Stack Developer | Creative Designer</p>
-            <a href="#projects" class="cta-button">View My Work</a>
+            <h1>Hi, I'm Prasoon Kumar</h1>
+            <p>Full Stack Developer | Designer
         </div>
+        <a href="#projects" class="cta-button">View My Work</a>
+    </div>
     </div>
 
     <!-- About Section -->
@@ -34,8 +38,11 @@
             <div class="about-image"></div>
             <div class="about-text">
                 <h3>Building Digital Experiences</h3>
-                <p>I'm a passionate web developer who loves creating beautiful, functional websites that make a difference. With a focus on clean code and stunning design, I bring ideas to life on the web.</p>
-                <p>When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying a good cup of coffee.</p>
+                <p>I'm a passionate Computer Science student and web developer who loves creating beautiful, functional
+                    websites that make a difference. Currently pursuing my degree at Asansol Engineering College, I
+                    focus on clean code and modern design principles.</p>
+                <p>When I'm not coding, you can find me exploring new technologies, contributing to open source
+                    projects, or learning about the latest developments in software engineering.</p>
                 <button class="cta-button" onclick="changeTheme()">Try Theme Switch</button>
             </div>
         </div>
@@ -65,6 +72,16 @@
                 <h3>Web Performance</h3>
                 <p>Optimizing websites for speed, accessibility, and excellent user experience.</p>
             </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚛️</div>
+                <h3>React.js</h3>
+                <p>Building modern, component-based user interfaces with React and its ecosystem.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🔧</div>
+                <h3>Git/GitHub</h3>
+                <p>Version control and collaborative development using Git and GitHub workflows.</p>
+            </div>
         </div>
     </section>
 
@@ -75,25 +92,46 @@
             <div class="project-card">
                 <div class="project-image">🌐</div>
                 <div class="project-content">
-                    <h3>Portfolio Website</h3>
-                    <p>A modern, responsive portfolio showcasing my work with smooth animations and clean design.</p>
-                    <a href="#" class="project-link">View Project →</a>
+                    <h3>Personal Portfolio</h3>
+                    <p>A modern, responsive portfolio website showcasing my skills and projects with smooth animations
+                        and clean monochrome design.</p>
+                    <a href="https://github.com/prasoonk1204/portfolio" class="project-link">View Project →</a>
                 </div>
             </div>
             <div class="project-card">
-                <div class="project-image">📱</div>
+                <div class="project-image">⚛️</div>
                 <div class="project-content">
-                    <h3>Mobile App Landing</h3>
-                    <p>A sleek landing page for a mobile application with engaging visuals and clear CTAs.</p>
-                    <a href="#" class="project-link">View Project →</a>
+                    <h3>React Todo App</h3>
+                    <p>A feature-rich task management application built with React, featuring local storage and modern
+                        UI components.</p>
+                    <a href="https://github.com/prasoonk1204/react-todo" class="project-link">View Project →</a>
                 </div>
             </div>
             <div class="project-card">
-                <div class="project-image">🎯</div>
+                <div class="project-image">💻</div>
                 <div class="project-content">
-                    <h3>Task Manager</h3>
-                    <p>An intuitive task management tool built with vanilla JavaScript and local storage.</p>
-                    <a href="#" class="project-link">View Project →</a>
+                    <h3>JavaScript Calculator</h3>
+                    <p>A fully functional calculator built with vanilla JavaScript, featuring a clean interface and
+                        advanced mathematical operations.</p>
+                    <a href="https://github.com/prasoonk1204/js-calculator" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-content">
+            <div class="education-card">
+                <div class="education-icon">🎓</div>
+                <div class="education-details">
+                    <h3>Bachelor of Technology</h3>
+                    <h4>Computer Science and Engineering</h4>
+                    <p class="institution">Asansol Engineering College</p>
+                    <p class="year">2nd Year • 2023-2027</p>
+                    <p class="description">Currently pursuing B.Tech in Computer Science and Engineering, focusing on
+                        software development, data structures, algorithms, and modern web technologies.</p>
                 </div>
             </div>
         </div>
@@ -105,18 +143,19 @@
         <div class="contact-content">
             <p>Have a project in mind? Let's create something amazing together!</p>
             <div class="contact-buttons">
-                <a href="mailto:your.email@example.com" class="contact-btn">Email Me</a>
-                <a href="https://github.com/yourusername" class="contact-btn" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/yourusername" class="contact-btn" target="_blank">LinkedIn</a>
+                <a href="mailto:prasoonkumar467@gmail.com" class="contact-btn">Email Me</a>
+                <a href="https://github.com/prasoonk1204" class="contact-btn" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/prasoon1204" class="contact-btn" target="_blank">LinkedIn</a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Your Name. Designed & Built with ❤️</p>
+        <p>&copy; 2025 Prasoon Kumar. Designed & Built with ❤️</p>
     </footer>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
